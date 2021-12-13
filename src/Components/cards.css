@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px; 
+  }
+  
+  .card{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 176.73px;
+    height: 294.23px;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+  
+  
+  .card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+  }
+
+  .card .card_title{
+    color: #808080;
+    font-size:25px ;
+  }
+  
+  .pack-price{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .pack-price .price{
+      font-size: 30px;
+      color: #1BE1AB;
+  }
+  .pack-price .pack{
+      font-size:10px;
+      padding-left: 20px;
+      color: #1BE1AB;
+  }
+  .mybtn{
+      padding-top: 100px;
+  }
+
+  .mybtn .btn{
+    position: relative;
+    width: 126px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #1BE1AB;
+    border: none;
+    font-size: 15px;
+    font-weight:bold;
+    color:#000000 ;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    color: #808080;
+  }
+  
+  

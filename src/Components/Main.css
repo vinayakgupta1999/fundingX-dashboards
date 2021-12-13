@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 25px;
+}
+
+.container span h1{
+    font-size: 30px;
+    color: #808080;
+}
+
+
+.container span h3{
+    font-size: 17px;
+    color: #808080;
+}
+
+
+.plans-card{
+    display: flex;
+    gap: 30px;
+}
